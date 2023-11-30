@@ -38,8 +38,11 @@ section {
 }
 
 .para {
-    width: 500px;
+    width: 700px;
     /* height: 50px; */
+    /* text-align: center; */
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .project img {
@@ -52,4 +55,15 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
 }
