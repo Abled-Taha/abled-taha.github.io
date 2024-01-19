@@ -10,7 +10,7 @@ header {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 20px 0;
+  padding: 1em 0;
 }
 
 nav ul {
@@ -29,12 +29,12 @@ nav a {
   display: block;
   color: #fff;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1em 1em;
   text-decoration: none;
 }
 
 section {
-  padding: 40px;
+  padding: 1em;
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -50,10 +50,20 @@ section:hover {
 
 .para-container {
   background-color: #333;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.7em;
+  box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.2);
+  overflow-y: scroll;
+  height: 30em;
+}
+
+.link-container {
+  background-color: #333;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.7em;
+  box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.2);
 }
 
 .desc {
@@ -63,10 +73,11 @@ section:hover {
 
 .desc-container {
   background-color: #333;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.7em;
+  box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.2);
+  overflow-y: scroll;
 }
 
 .home-container {
@@ -76,12 +87,12 @@ section:hover {
 }
 
 .img {
-  width: 500px;
-  height: 500px;
+  width: 20em;
+  height: 20em;
   margin: auto;
   border-radius: 50%;
   overflow: hidden;
-  border: 5px solid rgba(12, 14, 11, 255);
+  border: 0.35em solid rgba(12, 14, 11, 255);
 }
 
 .img img {
@@ -91,7 +102,7 @@ section:hover {
 }
 
 .project {
-  margin-top: 40px;
+  margin-top: 2em;
 }
 
 .project img {
@@ -113,7 +124,7 @@ footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 10px 0;
+  padding: 0.7em 0;
 }
 
 /* Responsive styles */
@@ -124,5 +135,11 @@ footer {
 
   header p {
     font-size: 1em;
+  }
+
+  .home-container {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
   }
 }
