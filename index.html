@@ -221,26 +221,26 @@
       
       <!-- Project 2 -->
       <div class="project">
-        <h3>Project (Password Manager) - WIP (Work In Progress)</h3>
+        <h3>Project (Password Manager)</h3>
         <!-- Slideshow container -->
         <div id="slideshow2" class="slideshow-container">
 
           <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
             <img src="images/project2_img1.png" style="width:100%">
-            <div class="caption-text">Home / Working Page</div>
+            <div class="caption-text">Home / Vault</div>
           </div>
           
           <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
             <img src="images/project2_img2.png" style="width:100%">
-            <div class="caption-text">Endpoints</div>
+            <div class="caption-text">Signin Page</div>
           </div>
           
           <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
             <img src="images/project2_img3.png" style="width:100%">
-            <div class="caption-text">Default Config File</div>
+            <div class="caption-text">Signup Page</div>
           </div>
           
           <a class="prev" onclick="plusSlides(-1,slideshow2)">&#10094;</a>
@@ -258,25 +258,27 @@
         <div class="desc-container">
           <div class="desc">
             <p>
-              The Images, as of now only contain the API, they will be updated soon.
-            </p>
-          </div>
-        </div>
-        <div class="desc-container">
-          <div class="desc">
-            <p>
               This Project is a Password Manager called APM. It has 3 main components.
               <ol>
-                <li>App: The password manager app is developed using Flutter, offering cross-platform compatibility for Windows, Linux, and Android users. Additionally, it is accessible via a website, ensuring convenient access across different devices and operating systems.</li>
                 <li>API: The API, built with Django, serves as the backend infrastructure for the password manager system. It provides the necessary functionality for managing user accounts, storing encrypted passwords, and facilitating communication between the app and the database.</li>
+                <li>Web-App: The password manager web-app is developed using Django, offering cross-platform compatibility for Windows, Linux, and Android users.</li>
                 <li>DB: MongoDB serves as the database for the password manager system. It stores user credentials and other relevant information securely, ensuring data integrity and confidentiality.</li>
               </ol>
               In summary, this project offers users a robust and secure solution for managing their passwords across multiple platforms, with an intuitive app interface, a reliable backend API, and a scalable database infrastructure.
+              <p>For Future: 
+                <ul>
+                  <li>API will be re-written using Ruby on Rails</li>
+                  <li>Web-App will be re-written using React</li>
+                  <li>DB will be changed for PostgreSQL</li>
+                  <li>Desktop App will be made using PySide6 for Windows & Linux</li>
+                  <li>Android App will be made using Kotlin</li>
+                </ul>
+              </p>
             </p>
             <br />
             <a
               target="_blank"
-              href="https://github.com/Abled-Taha/apm-server"
+              href="https://github.com/Abled-Taha/apm-app-web"
               style="font-weight: bolder"
               >GitHub Repository</a
             >
