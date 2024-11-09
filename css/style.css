@@ -64,6 +64,7 @@ section:hover {
   margin: 1em;
   border-radius: 0.7em;
   box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.2);
+  height: 30em;
 }
 
 .desc {
