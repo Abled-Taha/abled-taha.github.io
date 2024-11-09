@@ -58,6 +58,10 @@ section:hover {
   height: 30em;
 }
 
+#technology-stack {
+  overflow: hidden;
+}
+
 .link-container {
   background-color: #333;
   padding: 1em;
